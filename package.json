@@ -4,8 +4,8 @@
   "version": "0.2.0",
   "type": "module",
   "scripts": {
-    "dev": "tauri dev",
-    "build": "tauri build",
+    "dev": "node api.js && tauri dev",
+    "build": "node api.js && tauri build",
     "tauri": "tauri",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit"
